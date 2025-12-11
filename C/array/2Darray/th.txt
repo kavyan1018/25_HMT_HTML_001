@@ -1,0 +1,17 @@
+1 way 
+
+
+-> arr[2][2]
+
+
+2nd way
+
+a[0][0] = 10       a[0][1] = 20,
+a[1][0] = 30       a[1][1] = 40,
+
+-> arr[2][2] = { {10, 20} , {30, 40} };
+
+
+3rd way 
+
+-> arr[size1][size2].......{sizeN}; // 3d arrya or three-dimensional array or multi-dimensional array

@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    int arr[2][2] = {{10, 20} , {30, 40}};
+
+    printf("\n 2D array Elements !\n");
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            printf("%d ", arr[i][j]);
+        }
+        printf("\n");
+    }
+    
+
+}
