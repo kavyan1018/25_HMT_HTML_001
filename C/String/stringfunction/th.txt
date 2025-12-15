@@ -1,0 +1,11 @@
+printf / scanf 
+gets / puts
+
+
+strlen() -> String Length
+strcpy() -> Copy String
+Strcat() -> Concatenate two string
+Strlwr() -> Lower case String
+Strupr() -> Upper case String
+strrev() -> Reverse the string
+strcmp() -> Commper two string
