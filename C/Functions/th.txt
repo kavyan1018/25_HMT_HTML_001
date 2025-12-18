@@ -1,0 +1,25 @@
+why we use Functions ?
+-> Functions are used to organize code into reusable blocks, making it easier to read, maintain, and debug. They help in breaking down complex problems into smaller, manageable parts.
+
+types of functions :
+
+    -> inbuilt functions
+    -> user-defined functions
+            -> No arguments and No return type
+            -> with arguments and No return type
+            -> No arguments and with return type
+            -> with arguments and with return type
+            -> Recursive functions
+
+syntax of function :
+
+        data_type : void / int
+        function_name(parameters)
+        {
+            // body of the function
+        }
+
+        void main()
+        {
+            // Code here
+        }
