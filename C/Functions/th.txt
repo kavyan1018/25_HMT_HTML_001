@@ -23,3 +23,23 @@ syntax of function :
         {
             // Code here
         }
+
+
+
+WHY do we need 4 types of functions?
+
+Because every program has different needs:
+
+Sometimes we only want to do a task
+
+Sometimes we want to send data
+
+Sometimes we want to get a result back
+
+Sometimes we want both
+
+So C gives us 4 combinations of:
+
+Arguments (input)
+
+Return value (output)
