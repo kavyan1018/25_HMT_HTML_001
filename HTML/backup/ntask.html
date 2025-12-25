@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border="2px" >
+
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+        <tr>
+            <th colspan="2">Colspan Column</th>
+        </tr>
+
+        <tr>
+            <th rowspan="2">
+                Rowspan Cell
+            </th>
+            <th>
+                Cell 2
+
+                <table border="2px" bgcolor="yellow" cellspacing="10px" cellpadding="10px">
+
+                    <tr>
+                        <th>Inner Column Heading 1</th>
+                        <th>Inner Column Heading 2</th>
+                    </tr>
+
+                    <tr>
+                        <th>Inner Data Cell 1</th>
+                        <th bgcolor="gree">
+                            <table border="2px"  bgcolor="pink" cellspacing="10px" cellpadding="10px">
+
+                                <tr>
+                                    <th>
+                                        Inner Most Column Heading 1
+                                    </th>
+                                    <th>
+                                        Inner Most Column Heading 2
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th bgcolor="purple">
+                                        Inner Most Data cell 1
+                                    </th>
+                                    <th bgcolor="orange">
+                                        Inner Most Data Cell 2
+                                    </th>
+                                </tr>
+
+                            </table>
+                        </th>
+                    </tr>
+
+                </table>
+
+            </th>
+        </tr>
+
+    </table>
+
+</body>
+</html>
