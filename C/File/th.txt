@@ -1,0 +1,18 @@
+file type : 
+    text file 
+
+
+files functions :
+
+        -> fopen : open file
+        -> fclose : close file
+
+        -> r : read only
+        -> w : write only
+        -> a : append only
+        -> r+ : read and write
+        -> w+ : write and read
+        -> a+ : append and read
+
+
+    
