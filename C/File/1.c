@@ -25,29 +25,60 @@
 
 // read mode
 
+// #include <stdio.h>
+// #include <conio.h>
+
+// void main()
+// {
+//     FILE *p;
+//     char c;
+
+//     p = fopen("intro.txt", "r");
+
+//     if (p == NULL)
+//     {
+//         printf("File cannot be opened");
+//     }
+//     else
+//     {
+//         printf("File opened successfully\n");
+
+//         while ((c = fgetc(p)) != EOF) // eof = end of file
+//         {
+//             putchar(c);
+//         }
+//     }
+
+//     fclose(p);
+// }
+
+
+
+// append mode
+
 #include <stdio.h>
 #include <conio.h>
 
 void main()
 {
-    FILE *p;
-    char c;
+    FILE *fp;
+    char ch;
 
-    p = fopen("intro.txt", "r");
+    fp = fopen("intro.txt", "a");   // append mode
 
-    if (p == NULL)
+    if (fp == NULL)
     {
         printf("File cannot be opened");
-    }
-    else
-    {
-        printf("File opened successfully\n");
-        
-        while ((c = fgetc(p)) != EOF) // eof = end of file
-        {
-            putchar(c);
-        }
+        return;
     }
 
-    fclose(p);
+    printf("Enter text to append (press # to stop):\n");
+
+    while ((ch = getche()) != '#')
+    {
+        fputc(ch, fp);
+    }
+    fprintf(fp, "\n");
+
+    fclose(fp);
 }
